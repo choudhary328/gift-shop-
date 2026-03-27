@@ -1,3 +1,38 @@
+## 🛠️ Installation & Setup
+
+Follow these steps to get the project running locally on your machine.
+
+### Prerequisites
+
+- **Node.js**: Version 18.x or higher
+- **npm** or **pnpm**: Package manager
+
+### 1. Install Dependencies
+Using **npm**:
+```bash
+npm install
+```
+Using **pnpm**:
+```bash
+pnpm install
+```
+
+### 2. Run the Development Server
+```bash
+npm run dev
+# or
+pnpm run dev
+```
+The server will start at `http://localhost:5173/`.
+
+### 3. Build for Production
+```bash
+npm run build
+# or
+pnpm run build
+```
+The production-ready files will be generated in the `dist` folder.
+
 # Online Gift Shop - E-commerce UI
 
 A beautiful, modern, and fully responsive gift shop e-commerce website built with React, TypeScript, and Tailwind CSS.
